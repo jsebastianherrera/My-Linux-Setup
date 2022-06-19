@@ -1,0 +1,1 @@
+/home/herrera/.config/nvim/init.lua
