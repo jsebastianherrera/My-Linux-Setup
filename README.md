@@ -4,7 +4,7 @@
   <li><a href="https://hea-www.harvard.edu/~fine/Tech/vi.html">Complete vim key binding list</a></li>
   <li><a href="#">Keys(find it out)</a></li>
 </ul>
-<h3>My key mapping</h3>
+<h3>My keys mapping</h3>
 <ol>
   <li><a href="#basic-commands">Basic commands</a></li>
   <li><a href="#panel-interaction">Panel interaction</a></li>
