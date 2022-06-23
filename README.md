@@ -1,4 +1,4 @@
-<h1>Mapping keys</h1>
+<h1>Mapping keys(SHG)</h1>
 <p>Before you start, take a look at the list below </p>
 <ul>    
   <li><a href="https://hea-www.harvard.edu/~fine/Tech/vi.html">Complete vim key binding list</a></li>
