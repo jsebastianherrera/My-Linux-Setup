@@ -9,10 +9,13 @@
   <li><a href="#basic-commands">Basic commands</a></li>
   <li><a href="#panel-interaction">Panel interaction</a></li>
   <li><a href="#tabs-management">Tabs management</a></li>
+  <li><a href="#lps-reference">LPS reference</a></li>
+  <li><a href="#commenter">Commenter</a></li>
 </ol>
 <ul>
 <li><h4>Basic commands</h4></li>
 <p>Leader in my case means = " " <b>(Basically space key)</b></p>
+<p><b>When you scrolled down/up with Ctrl+UP/DOWN the cursor is moving too, you can go back to the previous line(Which was in Insert mode) pressing gi in normal mode(ESC)</b></p>
  <table id="basic-commands">
     <thead>
       <tr>
@@ -133,4 +136,59 @@
       </tr>
     </tbody>
   </table>
+  <li><h4>LPS Reference</h4></li>
+  <table id="lps-reference">
+    <thead>
+      <tr>
+      <th>Shortcut</th>
+      <th>Command</th>
+      <th>Function</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>gr</td>
+        <td>:lua vim.lsp.buf.references() &lt;CR&gt;</td>
+        <td>Get all references that the function has</td>
+      </tr>
+      <tr>
+        <td>gd</td>
+        <td>:lua vim.lsp.buf.definition() &lt;CR&gt;</td>
+        <td>Get all definition that the function has</td>
+      </tr>
+      <tr>
+        <td>K</td>
+        <td>:lua vim.lsp.buf.hover() &lt;CR&gt;</td>
+        <td>Show details </td>
+      </tr>
+      <tr>
+        <td>&lt;Leader&gt;rn</td>
+        <td>:lua vim.lsp.buf.rename() &lt;CR&gt;</td>
+        <td>Rename all variables with the same name </td>
+      </tr>
+    </tbody>
+  </table>
+  <li><h4>Commenter</h4></li>
+  <table id="commenter">
+    <thead>
+      <tr>
+      <th>Shortcut</th>
+      <th>Command</th>
+      <th>Function</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&lt;Leader&gt;cc</td>
+        <td>:CommentToggle &lt;CR&gt;</td>
+        <td>Comment and uncomment current line</td>
+      </tr>
+      <tr>
+        <td>&lt;Leader&gt;cv</td>
+        <td>:'&lt;,'&gt;CommentToggle &lt;CR&gt;</td>
+        <td>Comment and uncomment lines(Visual Mode)</td>
+      </tr>
+   </tbody>
+  </table>
+
 </ul>
